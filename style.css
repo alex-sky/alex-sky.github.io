@@ -62,7 +62,7 @@ h1 {
     height: 45%
 }
 .container {
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -70,7 +70,7 @@ h1 {
     height: 100%;
 }
 .container>div {
-    width: 100%;
+    width: auto;
     margin-top: 10px;
     position: relative;
     z-index: 2
