@@ -5,14 +5,8 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Geometria-Bold';
-	src: url('Geometria-Bold.otf');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Geometria-ExtraBold';
-	src: url('Geometria-ExtraBold.otf');
+	font-family: 'snyder-speed-brush';
+	src: url('snyder-speed-brush.ttf');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,8 +17,8 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Geometria-Medium';
-	src: url('Geometria-Medium.otf');
+	font-family: '18046';
+	src: url('18046.ttf');
 	font-weight: normal;
 	font-style: normal;
 }
