@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Geometria';
+	src: url('Geometria.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Geometria-Bold';
+	src: url('Geometria-Bold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Geometria-ExtraBold';
+	src: url('Geometria-ExtraBold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Geometria-Heavy';
+	src: url('Geometria-Heavy.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Geometria-Medium';
+	src: url('Geometria-Medium.otf');
+	font-weight: normal;
+	font-style: normal;
+}

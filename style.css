@@ -1,0 +1,93 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 2.1vw;
+    font-family: 'Geometria';
+}
+.wrapper {
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.wrapper>img {
+    width: 33%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.container>div {
+    width: auto;
+}
+h1 {
+    font-family: 'Geometria-Heavy';
+    font-size: 2.4em;
+    position: relative;
+    margin: 0 0 .5em;
+    padding: 0;
+}
+h1:before {
+    position: absolute;
+    content: '';
+    left: -1.7em;
+    top: .3em;
+    width: 1.5em;
+    height: .75em;
+    background: url(/logo.png) center/100% 99% no-repeat
+}
+.container p {
+    margin: 0 0 1em;
+    font-size: 1em
+}
+.container p a {
+    color: #000;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper>img {
+    width: 40%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.container>div {
+    width: 55%;
+    position: relative;
+    z-index: 2;
+}
+h1 {
+    font-size: 30px;
+    position: relative;
+    margin: 0 0 .5em;
+    padding: 0;
+}
+h1:before {
+    left: -1.7em;
+    top: .3em;
+    width: 1.5em;
+    height: .75em;
+    background: url(/logo.png) center/100% 99% no-repeat
+}
+.container p {
+    margin: 0 0 15px;
+    font-size: 15px
+}
+}
