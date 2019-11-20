@@ -54,7 +54,7 @@ h1:before {
 
 @media screen and (max-width: 768px) {
     .wrapper>img {
-    width: 40%;
+    width: 60%;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -64,14 +64,16 @@ h1:before {
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
     height: 100%;
     flex-wrap: wrap;
 }
 .container>div {
-    width: 55%;
+    width: 100%;
     position: relative;
     z-index: 2;
+    margin-top: 40px;
+    padding-left: 20%
 }
 h1 {
     font-size: 30px;
@@ -87,7 +89,7 @@ h1:before {
     background: url(/logo.png) center/100% 99% no-repeat
 }
 .container p {
-    margin: 0 0 15px;
-    font-size: 15px
+    margin: 0 0 12px;
+    font-size: 18px
 }
 }
