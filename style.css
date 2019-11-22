@@ -10,18 +10,21 @@ body {
     width: 100%;
     position: relative;
 }
-.wrapper>img {
-    width: auto;
+.wrapper:after {
+    width: 100%;
     position: absolute;
     left: 0;
-    bottom: 0;
-    height: 95%
+    top: 0;
+    height: 100%;
+    background: url(/bg.jpg) center/cover;
+    content: '';
+    z-index: -1
 }
 .container {
     width: 70%;
     margin: 0 auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
 }
@@ -30,17 +33,57 @@ body {
 }
 .container>div>img {
     width: 5.5em;
-    margin-bottom: .5em
+    margin-bottom: 1em
 }
 h1 {
     font-family: '18046';
-    font-size: 1.2em;
+    font-size: 1.7em;
     margin: 0 0 .5em;
     padding: 0;
+    color: #fff;
+    font-weight: 100
+}
+h2 {
+    font-family: 'Geometria-Bold';
+    font-size: 1em
 }
 .container p {
-    margin: 0 0 .8em;
-    font-size: .72em
+    margin: 0 0 1.1em;
+    font-size: .75em;
+    position: relative;
+    padding-left: 1.5em
+}
+.container p:before {
+    left: 0;
+    position: absolute;
+    content: '';
+    top: .25em;
+    width: .8em;
+    height: 1em;
+}
+.container .ico1:nth-of-type(1) {
+    margin: 0
+}
+.container .ico1 a {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.container .ico1:before {
+    background: url(/icon1.png) center/100% no-repeat;
+}
+.container .ico2:before {
+    background: url(/icon2.png) center/100% no-repeat;
+    width: .7em;
+    height: 1em;
+}
+.container .ico3:before {
+    background: url(/icon3.png) center/100% no-repeat;
+}
+.container .ico4:before {
+    background: url(/icon5.png) center/100% no-repeat;
+}
+.container .ico5:before {
+    background: url(/icon6.png) center/100% no-repeat;
 }
 .container p a {
     color: #000;
@@ -54,42 +97,79 @@ h1 {
     font-size: 18px;
     font-family: 'Geometria';
 }
-.wrapper>img {
-    width: auto;
+.wrapper:after {
+    width: 100%;
     position: absolute;
     left: 0;
-    bottom: 0;
-    height: 45%
+    top: 0;
+    height: 100%;
+    background: url(/bg1.jpg) top/100% 88% no-repeat;
+    content: '';
+    z-index: -1;
 }
 .container {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: fl;
     height: 100%;
+    flex-wrap: wrap;
 }
 .container>div {
     width: auto;
-    margin-top: 10px;
-    position: relative;
-    z-index: 2
 }
+    .container>div:nth-of-type(1) {
+        width: 100%;
+        text-align: center
+    }
 .container>div>img {
-    width: 80px;
+    width: 5em;
     margin-bottom: .5em
 }
 h1 {
-    font-size: 1em;
+    font-size: 1.6em;
     margin: 0 0 .5em;
-    padding: 0;
+}
+h2 {
+    font-size: 1.2em
 }
 .container p {
-    margin: 0 0 .8em;
-    font-size: .8em
+    margin: 0 0 1.1em;
+    font-size: .8em;
+    position: relative;
+    padding-left: 1.5em
 }
-.container p a {
-    color: #000;
-    text-decoration: none;
+.container p:before {
+    left: 0;
+    position: absolute;
+    content: '';
+    top: .25em;
+    width: .8em;
+    height: 1em;
+}
+.container .ico1:nth-of-type(1) {
+    margin: 0
+}
+.container .ico1 a {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.container .ico1:before {
+    background: url(/icon1.png) center/100% no-repeat;
+}
+.container .ico2:before {
+    background: url(/icon2.png) center/100% no-repeat;
+    width: .7em;
+    height: 1em;
+}
+.container .ico3:before {
+    background: url(/icon3.png) center/100% no-repeat;
+}
+.container .ico4:before {
+    background: url(/icon5.png) center/100% no-repeat;
+}
+.container .ico5:before {
+    background: url(/icon6.png) center/100% no-repeat;
 }
 }
